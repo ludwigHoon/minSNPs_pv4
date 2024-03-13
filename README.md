@@ -29,9 +29,11 @@
 
 ## Using the "mcc_multi" and "simpson_by_group" SNPs to build BALK classifier
 - Scripts used:
-    - `scripts/BALK/`
+    - `scripts/BALK/BALK_experiment.r`
 
 - Results:
+    - The results to compare model built with SNPs selected mcc_multi, simpson_by_group and random are in `results/BALK/`
+    - 
     - Heatmaps are in `results/BALK/heatmaps/`, in the files with following format:
         - <mcc_multi | simpson_group>\_<country | country2region>\_<all | val>(_single).png
     - The final classifiers is in `results/BALK/`
