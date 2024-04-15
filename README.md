@@ -1,5 +1,8 @@
 # minSNPs_pv4
 
+*note:*
+The SNPs from the different chromosomes are concatenated into a single file. The selected SNPs are the index in the concatenated FASTA file. `ref_pv4.tsv` can be used to find the chromosome and the relative position of the SNP in the chromosome. 
+
 ## Deriving SNP sets to discriminate _P. vivax_ samples from east southeast asia, and Vietnam with "mcc" and "percent"
 - Results:
     - Vietnam: `results/minSNPs_output/percent_vietnam.tsv`, `results/minSNPs_output/mcc_vietnam.tsv`
